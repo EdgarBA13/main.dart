@@ -1,0 +1,30 @@
+//Nombre: Edgar
+//Apellido: Barron Aguirre
+//Grupo: 6-V
+void main(){
+  print("Hellouda");
+int numero1=10;
+int numero2=15;
+int numero3=5;
+int numero4=8;
+  int numero5=13;
+  int numero6=11;
+  double numero7=3;
+  double numero8=2;
+  int lado=9;
+  int base=7;
+  int altura=20;
+  int resultadoS=numero1+numero2;
+  int resultadoR=numero3-numero4;
+  int resultadoM=numero5*numero6;
+  double resultadoD=numero7/numero8;
+  int res=lado*lado;
+  double tri=(base*altura)/2;
+  print("La suma de $numero1 mas $numero2 es: $resultadoS");
+  print("La resta de $numero3 menos $numero4 es: $resultadoR");
+  print("La multiplicacion de $numero5 por $numero6 es: $resultadoM");
+  print("La division de $numero7 entre $numero8 es: $resultadoD");
+  print("El area de un cudrado con medida una cara de 9 es: $res");
+   print("El area de un triangulo con base 7 y altura 20 es: $tri");
+
+}
