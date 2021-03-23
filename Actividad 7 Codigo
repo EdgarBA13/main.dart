@@ -1,0 +1,20 @@
+//Nombre: Edgar
+//Apellido: Barron Aguirre
+//Grupo: 6-V
+void main() {
+  print("Hellouda");
+  int num1=5;
+  int num2=3;
+  
+  if(num1>num2){
+print("El numero $num1 es mayor a $num2");
+  } else{
+print("El numero $num2 es mayor a $num1");
+  }
+  if (num1==num2){
+print("El $num1 es igual a $num2");
+  } else{
+print("El $num1 no es igual al $num2");
+  }
+  //Mostrar el mayor de dos numeros y en caso de ser iguales decirlo.
+}
