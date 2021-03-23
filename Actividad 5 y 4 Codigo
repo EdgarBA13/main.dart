@@ -1,0 +1,23 @@
+//Nombre: Edgar
+//Apellido: Barron Aguirre
+//Grupo: 6-V
+void main(){
+print("Hellouda");
+  double pi=3.1416;
+  double radio=5;
+  double res=pi*(radio*radio);
+  print("El area de un circulo con radio 5 es igual a: $res");
+    int cal1=10;
+  int cal2=9;
+  int cal3=9;
+  double prom=(cal1+cal2+cal3)/3;
+  if(prom>=6)
+  {
+print("Aprobado");
+  }
+  else
+  {
+print("Reprobado");
+  }
+  
+}
