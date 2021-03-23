@@ -1,0 +1,20 @@
+//Nombre: Edgar
+//Apellido: Barron Aguirre
+//Grupo: 6-V
+void main() {
+  print("Hellouda");
+  int salario = 213;
+  double iva = 0.16;
+  int res = salario * (8 * 7);
+  double resf = res - (res * iva);
+  print("A la semana ganas el monto neto de: $res pesos");
+
+  if (resf >= 5000) {
+    print("Al quitarte el iva, tu salirio es de $resf pesos ,Trabaja mas");
+  } else {
+    print("Al quitarte el iva, tu salirio es de $resf pesos ,Vas bien");
+  }
+
+//Salario de una persona que gana 213, trabaja 8 horas los 7 dias, que paga 16% de iva, si queda menosd de 5000 mandar mensaje "Trabaja mas" si gana mas, 
+mandar mensaje "Vas bien"
+}
